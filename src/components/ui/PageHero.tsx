@@ -23,8 +23,8 @@ const PageHero = ({
         offset: ["start start", "end start"]
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+    const y = useTransform(scrollYProgress, [0, 1], [0, 150]);
+    const scale = useTransform(scrollYProgress, [0, 0.5], [1, 1.15]);
     const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
     return (
@@ -32,9 +32,8 @@ const PageHero = ({
             {/* Background Image Container with negative top padding */}
             <div className="absolute inset-x-0 top-0 bottom-0 z-0 px-1 md:px-2 pt-1">
                 <div className="relative mx-auto w-full max-w-full h-[calc(100%-0.25rem)] rounded-3xl border-4 border-white overflow-hidden">
-                    <motion.div
-                        style={{ y: yBg }}
-                        className="absolute inset-x-0 -top-12 bottom-0 will-change-transform"
+                    <div
+                        className="absolute inset-x-0 -top-12 bottom-0"
                     >
                         <Image
                             src={imageSrc}
@@ -45,13 +44,13 @@ const PageHero = ({
                         />
                         {/* Overlay */}
                         <div className="absolute inset-0 bg-black/50" />
-                    </motion.div>
+                    </div>
                 </div>
             </div>
 
             {/* Content */}
             <motion.div
-                style={{ y, opacity }}
+                style={{ y, opacity, scale }}
                 className="relative z-10 container mx-auto px-4 text-center text-white will-change-transform"
             >
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">

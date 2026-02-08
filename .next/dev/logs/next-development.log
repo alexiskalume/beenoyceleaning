@@ -1,407 +1,72 @@
-[00:00:01.794] Server  LOG     ✓ Ready in 1200ms
-[00:00:13.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.635] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:00:13.635] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:13.635] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.635] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.635] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.635] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.635] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.636] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:21.371] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:21.478] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:24.116] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:01.040] Server  LOG     ○ Compiling /services/[serviceId] ...
-[00:06:05.342] Server  LOG     ✓ Compiled in 3ms
-[00:06:06.183] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:06.504] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:06:06.504] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:08.693] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:06:08.693] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:08.693] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:08.693] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:08.693] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:08.693] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:08.693] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:08.693] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:11.497] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:14.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:14.819] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:14.819] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:06:14.819] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:14.819] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:14.819] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:14.819] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:14.820] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:14.820] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:36.664] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:05.231] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:05.428] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:28.577] Server  LOG     ✓ Compiled in 868ms
-[00:08:42.056] Server  LOG     ✓ Compiled in 447ms
-[00:08:45.335] Server  LOG     ✓ Compiled in 165ms
-[00:10:29.594] Server  LOG     ✓ Compiled in 814ms
-[00:10:37.448] Server  LOG     ✓ Compiled in 346ms
-[00:10:41.103] Server  LOG     ✓ Compiled in 140ms
-[00:10:54.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:54.881] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:10:54.881] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:54.881] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:09.098] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:14.518] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:11:14.788] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:19.501] Server  LOG     ✓ Compiled in 768ms
-[00:16:17.185] Server  LOG     ✓ Compiled in 575ms
-[00:16:23.992] Server  LOG     ✓ Compiled in 302ms
-[00:16:32.705] Server  LOG     ✓ Compiled in 268ms
-[00:16:37.590] Server  LOG     ✓ Compiled in 364ms
-[00:17:07.566] Server  LOG     ✓ Compiled in 307ms
-[00:18:18.812] Server  LOG     ✓ Compiled in 863ms
-[00:19:10.575] Server  LOG     ✓ Compiled in 434ms
-[00:20:45.477] Server  LOG     ✓ Compiled in 278ms
-[00:22:01.772] Server  LOG     ✓ Compiled in 638ms
-[00:22:05.375] Server  LOG     ✓ Compiled in 268ms
-[00:22:14.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:14.751] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:22:14.756] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:22:14.757] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:14.757] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:14.757] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:14.758] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:14.758] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:14.759] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:22:22.313] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:26:02.433] Server  LOG     ✓ Compiled in 738ms
-[00:27:10.896] Server  LOG     ✓ Compiled in 4.8s
-[00:27:12.725] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:14.108] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:14.109] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:14.109] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:14.109] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:23.555] Server  LOG     ✓ Compiled in 1384ms
-[00:27:28.590] Server  LOG     ✓ Compiled in 841ms
-[00:27:29.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:30.114] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:30.115] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:27:30.115] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:30.115] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:27:36.363] Server  LOG     ✓ Compiled in 2s
-[00:27:38.338] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:31:16.504] Server  LOG     ✓ Compiled in 1326ms
-[00:31:29.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:30.194] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:31:30.194] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:30.194] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:31:30.194] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:31:30.194] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:31:30.194] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:31:30.194] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:31:30.194] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:33:12.980] Server  LOG     ✓ Compiled in 1254ms
-[00:33:19.314] Server  LOG     ✓ Compiled in 420ms
-[00:34:04.990] Server  LOG     ✓ Compiled in 714ms
-[00:34:09.600] Server  LOG     ✓ Compiled in 329ms
-[00:34:58.678] Server  LOG     ✓ Compiled in 451ms
-[00:35:03.748] Server  LOG     ✓ Compiled in 321ms
-[00:35:04.001] Browser WARN    Image with src "/assets/HeroBG.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:15.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:16.250] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:35:16.251] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:16.251] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:16.251] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:16.251] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:16.251] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:16.251] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:16.251] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:36:24.734] Server  LOG     ✓ Compiled in 609ms
-[00:37:11.129] Server  LOG     ✓ Compiled in 469ms
-[00:37:14.695] Server  LOG     ✓ Compiled in 381ms
-[00:37:30.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:30.662] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:37:30.662] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:37:30.662] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:30.662] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:30.662] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:30.662] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:30.662] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:37:30.662] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:48.616] Server  LOG     ✓ Compiled in 1648ms
-[00:38:54.773] Server  LOG     ✓ Compiled in 235ms
-[00:39:06.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:07.472] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:39:07.476] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:39:07.476] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:07.476] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:07.476] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:07.476] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:07.476] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:07.476] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:39:30.676] Server  LOG     ✓ Compiled in 388ms
-[00:40:05.335] Server  LOG     ✓ Compiled in 822ms
-[00:41:10.772] Server  LOG     ✓ Compiled in 666ms
-[00:41:32.797] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:41:54.947] Server  LOG     ✓ Compiled in 514ms
-[00:42:36.010] Server  LOG     ✓ Compiled in 841ms
-[00:42:50.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:52.151] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:42:52.151] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.151] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.151] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.151] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.151] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.151] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:52.785] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:43:13.479] Server  LOG     ✓ Compiled in 378ms
-[00:43:24.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:25.294] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:43:25.294] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:43:25.294] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:25.294] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:25.294] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:25.294] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:25.294] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:25.295] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:44:04.147] Server  LOG     ✓ Compiled in 482ms
-[00:44:57.902] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:45:08.381] Server  LOG     ✓ Compiled in 3.8s
-[00:46:13.774] Server  LOG     ✓ Compiled in 603ms
-[00:47:04.913] Server  LOG     ✓ Compiled in 435ms
-[00:47:14.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:15.028] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:47:15.028] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:47:15.028] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.028] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.028] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.028] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.028] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:15.028] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:47:45.192] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:48:39.076] Server  LOG     ✓ Compiled in 475ms
-[00:49:01.673] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:49:02.151] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:10.328] Server  LOG     ✓ Compiled in 1475ms
-[00:50:22.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:50:22.737] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:50:22.738] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:50:22.738] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:30.818] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:50:30.987] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:53:21.164] Server  LOG     ✓ Compiled in 856ms
-[00:54:03.580] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:54:55.259] Server  LOG     ✓ Compiled in 1027ms
-[00:55:15.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:55:16.782] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:55:16.782] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/service-residential.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:55:16.782] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:16.782] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:55:20.925] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:55:21.069] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:55:25.274] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:55:25.687] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:55:25.687] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:55:25.687] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:56:28.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:29.223] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:56:29.223] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.223] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.224] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.224] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.224] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.224] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:56:29.224] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:56:39.749] Server  LOG     ✓ Compiled in 2.8s
-[00:58:14.517] Server  LOG     ✓ Compiled in 995ms
-[01:00:39.002] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:00:40.136] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:00:40.137] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:00:56.280] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:01:23.176] Server  LOG     ✓ Compiled in 1081ms
-[01:01:55.187] Server  LOG     ✓ Compiled in 628ms
-[01:02:49.630] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:02:50.023] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:02:50.023] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:03:36.636] Server  LOG     ✓ Compiled in 483ms
-[01:07:07.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:09.109] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:07:09.109] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:07:09.109] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:07:09.109] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:08:06.722] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:08:32.583] Server  LOG     ✓ Compiled in 638ms
-[01:10:32.873] Server  LOG     ✓ Compiled in 1194ms
-[01:11:19.323] Server  LOG     ✓ Compiled in 607ms
-[01:12:09.053] Server  LOG     ✓ Compiled in 789ms
-[01:12:42.293] Server  LOG     ✓ Compiled in 710ms
-[01:14:46.138] Browser ERROR   ./src/components/ContactSection.tsx:142:26
+[00:00:01.583] Server  LOG     ✓ Ready in 1159ms
+[00:00:09.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.735] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:00:09.735] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.735] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.735] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:44.665] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:44.773] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:41.384] Server  LOG     ✓ Compiled in 446ms
+[00:02:52.644] Server  LOG     ✓ Compiled in 247ms
+[00:02:57.185] Server  LOG     ✓ Compiled in 134ms
+[00:04:00.843] Server  LOG     ✓ Compiled in 380ms
+[00:04:02.341] Browser ERROR   uncaughtError: ReferenceError: yBg is not defined
+[00:04:05.020] Server  LOG     ✓ Compiled in 180ms
+[00:04:05.327] Browser ERROR   ./src/components/ui/PageHero.tsx:47:34
 Parsing ecmascript source code failed
-  140 |                 </form>
-  141 |             </div>
-> 142 |           </ScrollReveal>
-      |                          ^
-> 143 |         </div>
-      | ^^^^^^^^^
-  144 |       </div>
-  145 |     </section>
-  146 |   );
+  45 |                         {/* Overlay */}
+  46 |                         <div className="absolute inset-0 bg-black/50" />
+> 47 |                     </motion.div>
+     |                                  ^
+> 48 |                 </div>
+     | ^^^^^^^^^^^^^^^^^
+  49 |             </div>
+  50 |
+  51 |             {/* Content */}
 
 Expected '</', got 'jsx text'
 
 Import trace:
   Server Component:
-    ./src/components/ContactSection.tsx
-    ./src/app/page.tsx
-[01:14:47.535] Server  LOG     ✓ Compiled in 762ms
-[01:20:02.312] Server  LOG     ✓ Compiled in 1080ms
-[01:20:16.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:20:16.936] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:20:17.196] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:20:17.196] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:17.196] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:17.196] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:17.196] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:20:17.196] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:20:49.877] Server  LOG     ✓ Compiled in 870ms
-[01:20:50.111] Browser ERROR   ./src/components/ContactSection.tsx:106:50
+    ./src/components/ui/PageHero.tsx
+    ./src/app/services/page.tsx
+[00:04:09.330] Browser ERROR   ./src/components/ui/PageHero.tsx:48:34
 Parsing ecmascript source code failed
-  104 |
-  105 |           {/* Contact Form - Below like the image */}
-> 106 |           <ScrollReveal direction="up" delay={0.2" className="mt-12">
-      |                                                  ^^^^^^^^^^^^^
-  107 |             <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-  108 |               <div className="max-w-4xl mx-auto">
-  109 |                 <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">{t.contact.form.title || 'Get in Touch'}</h3>
+  46 |                         <div className="absolute inset-0 bg-black/50" />
+  47 |                     </div>
+> 48 |                     </motion.div>
+     |                                  ^
+> 49 |                 </div>
+     | ^^^^^^^^^^^^^^^^^
+  50 |             </div>
+  51 |
+  52 |             {/* Content */}
 
-Expected '</', got 'string literal'
+Expected '</', got 'jsx text'
 
 Import trace:
   Server Component:
-    ./src/components/ContactSection.tsx
-    ./src/app/page.tsx
-[01:20:54.279] Server  LOG     ✓ Compiled in 1717ms
-[01:21:48.903] Server  LOG     ✓ Compiled in 1194ms
-[01:22:16.765] Server  LOG     ✓ Compiled in 804ms
-[01:22:32.510] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:22:32.768] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:22:33.100] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:22:33.100] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:22:33.100] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:22:33.100] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:22:33.100] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:22:33.100] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:23:12.136] Server  LOG     ✓ Compiled in 358ms
-[01:23:17.063] Server  LOG     ✓ Compiled in 237ms
-[01:23:29.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:23:30.021] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:23:30.275] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:23:30.276] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:23:30.276] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:23:30.276] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:23:30.276] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:23:30.276] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:24:17.496] Server  LOG     ✓ Compiled in 549ms
-[01:24:22.115] Server  LOG     ✓ Compiled in 212ms
-[01:24:35.215] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:24:35.376] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:24:35.611] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:24:35.611] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:24:35.611] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:24:35.611] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:24:35.611] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:24:35.611] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:25:14.965] Server  LOG     ✓ Compiled in 493ms
-[01:25:20.159] Server  LOG     ✓ Compiled in 302ms
-[01:25:31.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:25:31.569] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:25:31.776] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:25:31.776] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:25:31.776] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:25:31.776] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:25:31.776] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:25:31.776] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:26:25.080] Server  LOG     ✓ Compiled in 324ms
-[01:26:36.529] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:26:36.689] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:26:36.903] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:26:36.903] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:27:25.981] Server  LOG     ✓ Compiled in 316ms
-[01:28:40.073] Server  LOG     ✓ Compiled in 266ms
-[01:28:45.003] Server  LOG     ✓ Compiled in 195ms
-[01:30:08.033] Server  LOG     ✓ Compiled in 292ms
-[01:30:13.440] Server  LOG     ✓ Compiled in 178ms
-[01:30:28.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:30:29.239] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:30:29.501] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:30:29.501] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:30:50.796] Server  LOG     ✓ Compiled in 575ms
-[01:30:55.552] Server  LOG     ✓ Compiled in 757ms
-[01:31:01.620] Server  LOG     ✓ Compiled in 368ms
-[01:31:10.044] Server  LOG     ✓ Compiled in 167ms
-[01:31:28.568] Server  LOG     ✓ Compiled in 150ms
-[01:31:34.100] Server  LOG     ✓ Compiled in 163ms
-[01:31:53.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:31:54.054] Browser WARN    Image with src "/assets/been-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:31:54.310] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:31:54.310] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:32:44.985] Server  LOG     ✓ Compiled in 311ms
-[01:32:50.100] Server  LOG     ✓ Compiled in 278ms
-[01:33:09.888] Server  LOG     ✓ Compiled in 236ms
-[01:36:09.143] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:36:09.556] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:36:09.556] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[01:36:09.556] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:36:09.556] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:36:16.439] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+    ./src/components/ui/PageHero.tsx
+    ./src/app/services/page.tsx
+[00:04:13.358] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:13.366] Server  LOG     ✓ Compiled in 128ms
+[00:04:15.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:16.328] Browser WARN    Image with src "/assets/service-residential.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/service-commercial.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/service-deep.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/service-windows.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/service-vehicle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/service-eco.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.328] Browser WARN    Image with src "/assets/been-footer-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:17.130] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:05:40.282] Server  LOG     ✓ Compiled in 339ms
+[00:05:44.513] Server  LOG     ✓ Compiled in 95ms
+[00:05:52.545] Server  LOG     ✓ Compiled in 146ms
+[00:06:01.816] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:01.982] Browser WARN    Image with src "/assets/cleaner-portrait.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.982] Browser WARN    Image with src "/assets/hero-cleaning.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

@@ -72,7 +72,7 @@ const Header = () => {
                 href={link.href}
                 className={cn(
                   "transition-colors font-medium text-sm relative group",
-                  isScrolled ? "text-slate-700 hover:text-primary" : "text-slate-900 hover:text-primary"
+                  isScrolled ? "text-slate-700 hover:text-primary" : "text-white hover:text-white/80"
                 )}
               >
                 {link.label}
@@ -88,7 +88,7 @@ const Header = () => {
               href={`tel:${t.contact.phoneValue}`}
               className={cn(
                 "hidden md:flex items-center gap-2 transition-colors",
-                isScrolled ? "text-slate-600 hover:text-primary" : "text-slate-800 hover:text-primary"
+                isScrolled ? "text-slate-600 hover:text-primary" : "text-white hover:text-white/80"
               )}
             >
               <Phone className="w-3.5 h-3.5" />
@@ -129,7 +129,7 @@ const Header = () => {
             <button
               className={cn(
                 "lg:hidden p-2 rounded-full transition-colors",
-                isScrolled ? "text-slate-900 hover:bg-slate-100" : "text-slate-900 hover:bg-white/20"
+                isScrolled ? "text-slate-900 hover:bg-slate-100" : "text-white hover:bg-white/20"
               )}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >

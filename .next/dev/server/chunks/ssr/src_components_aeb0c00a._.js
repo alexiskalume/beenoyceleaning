@@ -477,15 +477,15 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
         0,
         1
     ], [
-        "0%",
-        "50%"
-    ]);
-    const yBg = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
         0,
-        1
+        150
+    ]);
+    const scale = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+        0,
+        0.5
     ], [
-        "0%",
-        "20%"
+        1,
+        1.15
     ]);
     const opacity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
         0,
@@ -502,11 +502,8 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
                 className: "absolute inset-x-0 top-0 bottom-0 z-0 px-1 md:px-2 pt-1",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative mx-auto w-full max-w-full h-[calc(100%-0.25rem)] rounded-3xl border-4 border-white overflow-hidden",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                        style: {
-                            y: yBg
-                        },
-                        className: "absolute inset-x-0 -top-12 bottom-0 will-change-transform",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-x-0 -top-12 bottom-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: imageSrc,
@@ -516,14 +513,14 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/PageHero.tsx",
-                                lineNumber: 39,
+                                lineNumber: 38,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/50"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ui/PageHero.tsx",
-                                lineNumber: 47,
+                                lineNumber: 46,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -545,7 +542,8 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                 style: {
                     y,
-                    opacity
+                    opacity,
+                    scale
                 },
                 className: "relative z-10 container mx-auto px-4 text-center text-white will-change-transform",
                 children: [
@@ -554,7 +552,7 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/PageHero.tsx",
-                        lineNumber: 57,
+                        lineNumber: 56,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -562,13 +560,13 @@ const PageHero = ({ title, description, imageSrc = "/assets/HeroBG.png", classNa
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/src/components/ui/PageHero.tsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ui/PageHero.tsx",
-                lineNumber: 53,
+                lineNumber: 52,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]

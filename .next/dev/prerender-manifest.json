@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/services/residential":{},"/services/commercial":{},"/services/deep":{},"/services/windows":{},"/services/vehicle":{},"/services/eco":{}},"dynamicRoutes":{"/services/[serviceId]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[serviceId]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"54761e5b94d379631c93d925eb7b57f6","previewModeSigningKey":"2e651f808953137bf475b0ed2eee9868a0252218ceff82ee3e1697ae328ab340","previewModeEncryptionKey":"2a21dbb9a13197f99680c8f125f87058675e78bc32b8a372c3958d21b746994f"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "37c2b2bead794e02336dc12dbe51ed3e",
+    "previewModeSigningKey": "7a3c342b5b4b2fce44344d18ef7ea7ff96cb1506f1382972b807eff791fe2cc4",
+    "previewModeEncryptionKey": "a5614264072b4d6b18789d0d050b2b855008129169c07b1bd7063caac3034c84"
+  }
+}
