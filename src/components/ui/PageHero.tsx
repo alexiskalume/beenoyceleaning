@@ -14,7 +14,7 @@ interface PageHeroProps {
 const PageHero = ({
     title,
     description,
-    imageSrc = "/placeholder-hero.jpg",
+    imageSrc = "/assets/HeroBG.png",
     className
 }: PageHeroProps) => {
     const ref = useRef<HTMLDivElement>(null);
@@ -28,22 +28,26 @@ const PageHero = ({
     const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
     return (
-        <div ref={ref} className={cn("relative w-full h-[400px] flex items-center justify-center overflow-hidden mb-8", className)}>
-            {/* Background Image Container */}
-            <motion.div
-                style={{ y: yBg }}
-                className="absolute inset-0 z-0 scale-110 will-change-transform"
-            >
-                <Image
-                    src={imageSrc}
-                    alt={title}
-                    fill
-                    className="object-cover"
-                    priority
-                />
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black/50" />
-            </motion.div>
+        <div ref={ref} className={cn("relative w-full h-[400px] flex items-center justify-center overflow-visible mb-8 bg-secondary/30", className)}>
+            {/* Background Image Container with negative top padding */}
+            <div className="absolute inset-x-0 top-0 bottom-0 z-0 px-1 md:px-2 pt-1">
+                <div className="relative mx-auto w-full max-w-full h-[calc(100%-0.25rem)] rounded-3xl border-4 border-white overflow-hidden">
+                    <motion.div
+                        style={{ y: yBg }}
+                        className="absolute inset-x-0 -top-12 bottom-0 will-change-transform"
+                    >
+                        <Image
+                            src={imageSrc}
+                            alt={title}
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                        {/* Overlay */}
+                        <div className="absolute inset-0 bg-black/50" />
+                    </motion.div>
+                </div>
+            </div>
 
             {/* Content */}
             <motion.div

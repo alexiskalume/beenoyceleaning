@@ -32,8 +32,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="pb-12 pt-8 bg-white">
-      <div className="container mx-auto px-4">
+    <footer className="pb-4 pt-8 bg-secondary/30">
+      <div className="mx-auto max-w-full px-1 md:px-2 bg-secondary/30">
         <div className="bg-green-vogue rounded-3xl text-primary-foreground p-6 md:p-8 pt-16 pb-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             {/* Brand */}

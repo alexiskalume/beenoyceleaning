@@ -7,7 +7,6 @@ import Link from "next/link";
 import { ChevronRight, CheckCircle, Home, Building2, Sparkles, Wind, Car, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageHero from "@/components/ui/PageHero";
-import placeholderImages from "@/lib/placeholder-images.json";
 import { Translations } from "@/lib/translations";
 
 type ServiceKey = keyof Omit<Translations['services'], 'subtitle' | 'title' | 'description' | 'learnMore'>;
@@ -34,14 +33,11 @@ const ServiceDetailsClient = ({ serviceKey }: { serviceKey: ServiceKey }) => {
         notFound();
     }
 
-    const serviceImage = placeholderImages.services[serviceKey];
-
     return (
         <div className="bg-background">
             <PageHero
                 title={service.title}
                 description={service.description}
-                imageSrc={serviceImage.src}
             />
 
             {/* Breadcrumbs */}

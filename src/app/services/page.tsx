@@ -19,7 +19,6 @@ export const metadata: Metadata = {
 };
 
 import PageHero from "@/components/ui/PageHero";
-import placeholderImages from "@/lib/placeholder-images.json";
 
 const ServicesPage = () => {
   return (
@@ -27,7 +26,6 @@ const ServicesPage = () => {
       <PageHero
         title={t.services.title}
         description={t.services.description}
-        imageSrc={placeholderImages.services.residential.src}
       />
 
       {/* Services Section */}

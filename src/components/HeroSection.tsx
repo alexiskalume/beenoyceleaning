@@ -27,13 +27,30 @@ const HeroSection = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} id="home" className="relative bg-white overflow-hidden pt-24 md:pt-28">
-      {/* Background decorations */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-0 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
+    <section ref={ref} id="home" className="relative bg-secondary/30 overflow-hidden pt-24 md:pt-28">
+      {/* Background Image */}
+      <div className="absolute inset-x-0 top-0 bottom-0 z-0 px-1 md:px-2 pt-1">
+        <div className="relative mx-auto w-full max-w-full h-[calc(100%-0.25rem)] rounded-3xl border-4 border-white overflow-hidden">
+          <div className="absolute inset-x-0 -top-12 bottom-0">
+            <Image
+              src="/assets/HeroBG.png"
+              alt="Professional cleaning background"
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* Overlay for readability */}
+            <div className="absolute inset-0 bg-black/50" />
+          </div>
+        </div>
+      </div>
 
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-8 items-center gradient-hero rounded-3xl p-8 md:p-12 overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl z-10" />
+      <div className="absolute bottom-20 left-0 w-72 h-72 bg-accent/5 rounded-full blur-3xl z-10" />
+
+      <div className="relative z-20 container mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-8 items-center p-8 md:p-12">
           {/* Left Content */}
           <motion.div
             style={{ y: yContent, opacity }}

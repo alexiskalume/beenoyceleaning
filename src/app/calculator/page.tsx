@@ -5,7 +5,6 @@ import PriceCalculator from "@/components/calculator/PriceCalculator";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
 import PageHero from "@/components/ui/PageHero";
-import placeholderImages from "@/lib/placeholder-images.json";
 
 export default function CalculatorPage() {
     const { t } = useLanguage();
@@ -15,7 +14,6 @@ export default function CalculatorPage() {
             <PageHero
                 title={t.calculator.title}
                 description={t.calculator.subtitle}
-                imageSrc={placeholderImages.hero.cleaning.src}
             />
 
             <div className="container mx-auto px-4 py-12">

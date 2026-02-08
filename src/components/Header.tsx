@@ -6,12 +6,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import placeholderImages from "@/lib/placeholder-images.json";
 
 const Header = () => {
@@ -37,8 +31,8 @@ const Header = () => {
   ];
 
   const languages = [
-    { code: "en", name: "English", flag: "🇬🇧" },
     { code: "fi", name: "Suomi", flag: "🇫🇮" },
+    { code: "en", name: "English", flag: "🇬🇧" },
   ];
 
   const selectedLanguage = languages.find(lang => lang.code === language);
@@ -102,33 +96,27 @@ const Header = () => {
             </a>
 
             {/* Language Switcher - always visible */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+            <div className="flex items-center gap-1.5">
+              {languages.map((lang) => (
                 <button
+                  key={lang.code}
+                  onClick={() => setLanguage(lang.code as "en" | "fi")}
                   className={cn(
-                    "flex items-center gap-2 px-2.5 py-1.5 rounded-full border transition-all duration-300",
-                    isScrolled
+                    "flex items-center gap-1.5 px-2 py-1.5 rounded-full border transition-all duration-300",
+                    language === lang.code
+                      ? isScrolled
+                        ? "border-primary bg-primary text-white shadow-sm"
+                        : "border-primary bg-primary text-white shadow-sm"
+                      : isScrolled
                       ? "border-slate-200 bg-white/50 hover:bg-white shadow-sm"
                       : "border-white/20 bg-white/40 hover:bg-white/60 backdrop-blur-sm"
                   )}
                 >
-                  <span className="text-lg leading-none">{selectedLanguage?.flag}</span>
-                  <span className="font-bold text-[10px] uppercase tracking-wider">{selectedLanguage?.code}</span>
+                  <span className="text-base leading-none">{lang.flag}</span>
+                  <span className="font-bold text-[10px] uppercase tracking-wider">{lang.code}</span>
                 </button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="rounded-2xl border-slate-100 shadow-xl">
-                {languages.map((lang) => (
-                  <DropdownMenuItem
-                    key={lang.code}
-                    onClick={() => setLanguage(lang.code as "en" | "fi")}
-                    className="flex items-center gap-3 px-4 py-2.5 cursor-pointer rounded-xl m-1 hover:bg-slate-50"
-                  >
-                    <span className="text-xl">{lang.flag}</span>
-                    <span className="font-medium text-sm text-slate-700">{lang.name}</span>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+              ))}
+            </div>
 
             {/* CTA Button - hidden on mobile */}
             <Link href="/calculator" className="hidden md:flex">
@@ -165,6 +153,29 @@ const Header = () => {
                 </Link>
               ))}
               <div className="h-px bg-slate-100 my-2" />
+              
+              {/* Language Switcher in Mobile Menu */}
+              <div className="flex items-center gap-2 px-4 py-2">
+                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Language:</span>
+                <div className="flex items-center gap-1.5">
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => setLanguage(lang.code as "en" | "fi")}
+                      className={cn(
+                        "flex items-center gap-1 px-2 py-1.5 rounded-full border transition-all duration-300",
+                        language === lang.code
+                          ? "border-primary bg-primary text-white shadow-sm"
+                          : "border-slate-200 bg-white/50 hover:bg-white shadow-sm"
+                      )}
+                    >
+                      <span className="text-base leading-none">{lang.flag}</span>
+                      <span className="font-bold text-[10px] uppercase tracking-wider">{lang.code}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              
               <a
                 href={`tel:${t.contact.phoneValue}`}
                 className="flex items-center justify-between gap-2 text-slate-700 bg-slate-50 px-4 py-3 rounded-2xl text-sm font-medium"

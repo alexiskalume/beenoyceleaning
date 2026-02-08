@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "bfb8ecdba5a5d3e7a1392b53e9781509",
-    "previewModeSigningKey": "5bbd5ad5c18d2b5edfd223b0477f5e6681b28ec3ee6a4fcf6e0492bd2da583c1",
-    "previewModeEncryptionKey": "7d3705b38adb3cd217049cca1bc71045a453c448995e3435342093840b78bd38"
-  }
-}
+{"version":4,"routes":{"/services/residential":{},"/services/commercial":{},"/services/deep":{},"/services/windows":{},"/services/vehicle":{},"/services/eco":{}},"dynamicRoutes":{"/services/[serviceId]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[serviceId]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"54761e5b94d379631c93d925eb7b57f6","previewModeSigningKey":"2e651f808953137bf475b0ed2eee9868a0252218ceff82ee3e1697ae328ab340","previewModeEncryptionKey":"2a21dbb9a13197f99680c8f125f87058675e78bc32b8a372c3958d21b746994f"}}
